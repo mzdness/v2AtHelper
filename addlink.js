@@ -21,11 +21,11 @@ for (var i=listFloor.length-1;i>=0;i--)
     $listAt[j].after(' ')
     let rpl_text = mapNameFloorElem[atName];
     $(jumpLink).click(function() {
-      $(rpl_text).fadeTo('fast', 0.3, function(){
+      $(rpl_text).fadeTo('fast', 0.5, function(){
         $(rpl_text).css("background-color","#E0E0FF")
       });
       $(rpl_text).fadeTo('fast', 1);
-      $(rpl_text).fadeTo('fast', 0.3, function(){
+      $(rpl_text).fadeTo('fast', 0.5, function(){
         $(rpl_text).css("background-color","white");
       });
       $(rpl_text).fadeTo('fast', 1);
